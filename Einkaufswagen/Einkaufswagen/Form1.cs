@@ -11,8 +11,9 @@ using System.Windows.Forms;
 namespace Einkaufswagen
 {
     public partial class Form1 : Form
-
     {
+        int counter;
+
         public List<OrderItem> productlist = new List<OrderItem>();
         Form2 f2;
         public Form1()
@@ -20,11 +21,7 @@ namespace Einkaufswagen
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void button2_Click(object sender, EventArgs e)
         {
             f2 = new Form2(this);
@@ -38,6 +35,11 @@ namespace Einkaufswagen
 
             OrderItem i = new OrderItem(ProductName, Amount);
             productlist.Add(i);
+
+            counter++;
+            label3.Text = counter.ToString();
+            
+
             
         }
 
@@ -47,6 +49,27 @@ namespace Einkaufswagen
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            f2 = new Form2(this);
+            f2.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

@@ -42,6 +42,8 @@ namespace Einkaufswagen
                 listBox1.Items.Add(produkt.getAmount() + " " + produkt.getProductName());
             }
         }
+
+        
     }
 }
 

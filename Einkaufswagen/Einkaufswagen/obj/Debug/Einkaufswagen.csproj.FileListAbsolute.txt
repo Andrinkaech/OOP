@@ -10,3 +10,15 @@ C:\Users\Andrin\Documents\C SHARP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufs
 C:\Users\Andrin\Documents\C SHARP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.csproj.CoreCompileInputs.cache
 C:\Users\Andrin\Documents\C SHARP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.exe
 C:\Users\Andrin\Documents\C SHARP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.pdb
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\bin\Debug\Einkaufswagen.exe.config
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\bin\Debug\Einkaufswagen.exe
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\bin\Debug\Einkaufswagen.pdb
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.csproj.AssemblyReference.cache
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.Form1.resources
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.Form2.resources
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.Properties.Resources.resources
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.csproj.GenerateResource.cache
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.csproj.CoreCompileInputs.cache
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.exe
+C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.pdb
