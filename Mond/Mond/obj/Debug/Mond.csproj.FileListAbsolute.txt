@@ -1,0 +1,11 @@
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\bin\Debug\Mond.exe.config
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\bin\Debug\Mond.exe
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\bin\Debug\Mond.pdb
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\obj\Debug\Mond.csproj.AssemblyReference.cache
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\obj\Debug\Mond.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\obj\Debug\Mond.Form1.resources
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\obj\Debug\Mond.Properties.Resources.resources
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\obj\Debug\Mond.csproj.GenerateResource.cache
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\obj\Debug\Mond.csproj.CoreCompileInputs.cache
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\obj\Debug\Mond.exe
+C:\Users\Andrin\Documents\C SHARP\Mond\Mond\obj\Debug\Mond.pdb

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "187838c2-3640-4590-af63-6c0f045ddab9": {
+      "ProjectGuid": "187838c2-3640-4590-af63-6c0f045ddab9",
+      "DisplayName": "Hello Wolrd",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

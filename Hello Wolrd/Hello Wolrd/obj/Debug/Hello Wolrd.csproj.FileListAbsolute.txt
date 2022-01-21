@@ -1,0 +1,11 @@
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\bin\Debug\Hello Wolrd.exe.config
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\bin\Debug\Hello Wolrd.exe
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\bin\Debug\Hello Wolrd.pdb
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\obj\Debug\Hello Wolrd.csproj.AssemblyReference.cache
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\obj\Debug\Hello Wolrd.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\obj\Debug\Hello_Wolrd.Form1.resources
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\obj\Debug\Hello_Wolrd.Properties.Resources.resources
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\obj\Debug\Hello Wolrd.csproj.GenerateResource.cache
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\obj\Debug\Hello Wolrd.csproj.CoreCompileInputs.cache
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\obj\Debug\Hello Wolrd.exe
+C:\Users\Andrin\Documents\C SHARP\Hello Wolrd\Hello Wolrd\obj\Debug\Hello Wolrd.pdb
