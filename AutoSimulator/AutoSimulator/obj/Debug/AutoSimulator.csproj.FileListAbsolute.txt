@@ -1,0 +1,11 @@
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\bin\Debug\AutoSimulator.exe.config
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\bin\Debug\AutoSimulator.exe
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\bin\Debug\AutoSimulator.pdb
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\obj\Debug\AutoSimulator.csproj.AssemblyReference.cache
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\obj\Debug\AutoSimulator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\obj\Debug\AutoSimulator.Form1.resources
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\obj\Debug\AutoSimulator.Properties.Resources.resources
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\obj\Debug\AutoSimulator.csproj.GenerateResource.cache
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\obj\Debug\AutoSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\obj\Debug\AutoSimulator.exe
+C:\Users\Andrin\Documents\C SHARP\AutoSimulator\AutoSimulator\obj\Debug\AutoSimulator.pdb
