@@ -22,3 +22,15 @@ C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einka
 C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.csproj.CoreCompileInputs.cache
 C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.exe
 C:\Users\Andrin\Documents\GitHub\OOP\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.pdb
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\bin\Debug\Einkaufswagen.exe.config
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\bin\Debug\Einkaufswagen.exe
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\bin\Debug\Einkaufswagen.pdb
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.csproj.AssemblyReference.cache
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.csproj.SuggestedBindingRedirects.cache
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.OrderForm.resources
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.CartForm.resources
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.Properties.Resources.resources
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.csproj.GenerateResource.cache
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.csproj.CoreCompileInputs.cache
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.exe
+C:\temp\andrinoop\Einkaufswagen\Einkaufswagen\obj\Debug\Einkaufswagen.pdb

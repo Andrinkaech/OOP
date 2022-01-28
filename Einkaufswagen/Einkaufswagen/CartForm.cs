@@ -10,30 +10,17 @@ using System.Windows.Forms;
 
 namespace Einkaufswagen
 {
-    public partial class Form2 : Form
+    public partial class CartForm : Form
     {
-        OrderItem Oi;
-        Form1 form;
-        public Form2(Form1 form)
+        OrderForm form;
+
+        public CartForm(OrderForm form)
         {
             this.form = form;
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-   
-        }
-
-
-
-
-        private void Form2_Load(object sender, EventArgs e)
+        private void CartForm_Load(object sender, EventArgs e)
         {
      
             foreach (OrderItem produkt in form.GetProductList())

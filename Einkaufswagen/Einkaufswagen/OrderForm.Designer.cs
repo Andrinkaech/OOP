@@ -1,6 +1,6 @@
 ﻿namespace Einkaufswagen
 {
-    partial class Form1
+    partial class OrderForm
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -30,14 +30,14 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.textBoxProductName = new System.Windows.Forms.TextBox();
+            this.buttonAddProduct = new System.Windows.Forms.Button();
+            this.numUpDownAmount = new System.Windows.Forms.NumericUpDown();
             this.Produkterfassung = new System.Windows.Forms.GroupBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDownAmount)).BeginInit();
             this.Produkterfassung.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -47,60 +47,65 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label1.Location = new System.Drawing.Point(8, 61);
+            this.label1.Location = new System.Drawing.Point(11, 75);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 20);
+            this.label1.Size = new System.Drawing.Size(162, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Produkt (Name):";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label2.Location = new System.Drawing.Point(75, 100);
+            this.label2.Location = new System.Drawing.Point(100, 123);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 20);
+            this.label2.Size = new System.Drawing.Size(79, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Anzahl:";
             // 
-            // textBox1
+            // textBoxProductName
             // 
-            this.textBox1.Location = new System.Drawing.Point(142, 61);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(249, 20);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBoxProductName.Location = new System.Drawing.Point(189, 75);
+            this.textBoxProductName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxProductName.Name = "textBoxProductName";
+            this.textBoxProductName.Size = new System.Drawing.Size(331, 22);
+            this.textBoxProductName.TabIndex = 0;
             // 
-            // button1
+            // buttonAddProduct
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(142, 143);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(249, 31);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Zum Warenkorb hinzufügen";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonAddProduct.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAddProduct.Location = new System.Drawing.Point(189, 176);
+            this.buttonAddProduct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonAddProduct.Name = "buttonAddProduct";
+            this.buttonAddProduct.Size = new System.Drawing.Size(332, 38);
+            this.buttonAddProduct.TabIndex = 2;
+            this.buttonAddProduct.Text = "Zum Warenkorb hinzufügen";
+            this.buttonAddProduct.UseVisualStyleBackColor = true;
+            this.buttonAddProduct.Click += new System.EventHandler(this.buttonAddProduct_Click);
             // 
-            // numericUpDown1
+            // numUpDownAmount
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(142, 103);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(57, 20);
-            this.numericUpDown1.TabIndex = 6;
+            this.numUpDownAmount.Location = new System.Drawing.Point(189, 127);
+            this.numUpDownAmount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numUpDownAmount.Name = "numUpDownAmount";
+            this.numUpDownAmount.Size = new System.Drawing.Size(76, 22);
+            this.numUpDownAmount.TabIndex = 1;
             // 
             // Produkterfassung
             // 
-            this.Produkterfassung.Controls.Add(this.numericUpDown1);
+            this.Produkterfassung.Controls.Add(this.numUpDownAmount);
             this.Produkterfassung.Controls.Add(this.label1);
             this.Produkterfassung.Controls.Add(this.label2);
-            this.Produkterfassung.Controls.Add(this.button1);
-            this.Produkterfassung.Controls.Add(this.textBox1);
-            this.Produkterfassung.Location = new System.Drawing.Point(28, 68);
+            this.Produkterfassung.Controls.Add(this.buttonAddProduct);
+            this.Produkterfassung.Controls.Add(this.textBoxProductName);
+            this.Produkterfassung.Location = new System.Drawing.Point(37, 84);
+            this.Produkterfassung.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Produkterfassung.Name = "Produkterfassung";
-            this.Produkterfassung.Size = new System.Drawing.Size(409, 213);
+            this.Produkterfassung.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Produkterfassung.Size = new System.Drawing.Size(545, 262);
             this.Produkterfassung.TabIndex = 7;
             this.Produkterfassung.TabStop = false;
             this.Produkterfassung.Text = "Produkterfassung";
@@ -109,10 +114,11 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(278, 45);
+            this.linkLabel1.Location = new System.Drawing.Point(371, 55);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(159, 20);
-            this.linkLabel1.TabIndex = 8;
+            this.linkLabel1.Size = new System.Drawing.Size(202, 25);
+            this.linkLabel1.TabIndex = 3;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Warenkorb anzeigen";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
@@ -122,35 +128,37 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label3.Location = new System.Drawing.Point(235, 45);
+            this.label3.Location = new System.Drawing.Point(313, 55);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 20);
+            this.label3.Size = new System.Drawing.Size(0, 25);
             this.label3.TabIndex = 9;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Einkaufswagen.Properties.Resources.Screenshot_2022_01_21_164909;
-            this.pictureBox1.Location = new System.Drawing.Point(248, 45);
+            this.pictureBox1.Location = new System.Drawing.Point(331, 55);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 20);
+            this.pictureBox1.Size = new System.Drawing.Size(40, 25);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // Form1
+            // OrderForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(477, 313);
+            this.ClientSize = new System.Drawing.Size(636, 385);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.Produkterfassung);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "OrderForm";
             this.Text = "Bestellung erfassen";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDownAmount)).EndInit();
             this.Produkterfassung.ResumeLayout(false);
             this.Produkterfassung.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -163,9 +171,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.TextBox textBoxProductName;
+        private System.Windows.Forms.Button buttonAddProduct;
+        private System.Windows.Forms.NumericUpDown numUpDownAmount;
         private System.Windows.Forms.GroupBox Produkterfassung;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label3;
