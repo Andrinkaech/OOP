@@ -1,6 +1,6 @@
 ﻿namespace Einkaufswagen
 {
-    partial class Form2
+    partial class CartForm
     {
         /// <summary>
         /// Required designer variable.
@@ -38,43 +38,48 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 33.25F);
-            this.label1.Location = new System.Drawing.Point(129, 44);
+            this.label1.Location = new System.Drawing.Point(172, 54);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(242, 52);
+            this.label1.Size = new System.Drawing.Size(301, 64);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Warenkrob";
+            this.label1.Text = "Warenkorb";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(42, 114);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(56, 140);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(317, 199);
+            this.listBox1.Size = new System.Drawing.Size(421, 244);
             this.listBox1.TabIndex = 2;
             // 
             // pictureBox1
             // 
             this.pictureBox1.ErrorImage = global::Einkaufswagen.Properties.Resources.Screenshot_2022_01_21_164909;
             this.pictureBox1.Image = global::Einkaufswagen.Properties.Resources.Screenshot_2022_01_21_164909;
-            this.pictureBox1.Location = new System.Drawing.Point(42, 44);
+            this.pictureBox1.Location = new System.Drawing.Point(56, 54);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(81, 52);
+            this.pictureBox1.Size = new System.Drawing.Size(108, 64);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // Form2
+            // CartForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(403, 336);
+            this.ClientSize = new System.Drawing.Size(537, 414);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
-            this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "CartForm";
+            this.Text = "Warenkorb";
+            this.Load += new System.EventHandler(this.CartForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
