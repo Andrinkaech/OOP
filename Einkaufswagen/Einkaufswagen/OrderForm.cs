@@ -12,9 +12,7 @@ namespace Einkaufswagen
 {
     public partial class OrderForm : Form
     {
-        int counter;
-
-        public List<OrderItem> productlist = new List<OrderItem>();
+        private List<OrderItem> productlist = new List<OrderItem>();
         CartForm cartForm;
         
         public OrderForm()
@@ -30,8 +28,8 @@ namespace Einkaufswagen
             OrderItem i = new OrderItem(ProductName, Amount);
             productlist.Add(i);
 
-            counter++;
-            label3.Text = counter.ToString();
+           
+            label3.Text = productlist.Count.ToString();
         }
 
         public List<OrderItem> GetProductList()
